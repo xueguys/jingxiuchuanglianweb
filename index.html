@@ -3,30 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>京秀窗帘</title>
+    <title>京秀窗帘 - 高端定制窗帘</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="brand">
-        <h1>京秀窗帘</h1>
+    <header class="app-bar">
+        <div class="container">
+            <h1>
+                <span class="material-symbols-rounded">curtains</span>
+                京秀窗帘
+            </h1>
+            <nav>
+                <a href="#about" class="nav-item">关于我们</a>
+                <a href="#products" class="nav-item">产品系列</a>
+                <a href="#contact" class="nav-item">联系方式</a>
+            </nav>
+        </div>
     </header>
 
-    <main class="hero">
-        <div class="hero-image">
-            <!-- 主图将通过CSS背景图片设置 -->
-        </div>
-        <div class="content-overlay">
-            <h2>精致窗帘定制</h2>
-            <p>为您的居所打造完美采光与私密空间</p>
-            <div class="action-buttons">
-                <a href="#" class="map-btn">
-                    <img src="map-icon.png" alt="查看地图">
-                </a>
-                <a href="tel:+86xxxxxxxxxx" class="call-btn">
-                    <img src="phone-icon.png" alt="拨打电话">
-                </a>
+    <main>
+        <section class="hero">
+            <div class="hero-content container">
+                <h2 class="headline-large">奢华质感 · 精致生活</h2>
+                <p class="body-large">专注高端窗帘定制20年，为您打造完美的光影艺术</p>
+                <div class="action-buttons">
+                    <a href="#contact" class="button primary">
+                        <span class="material-symbols-rounded">schedule</span>
+                        预约设计师
+                    </a>
+                    <a href="#" class="button secondary" id="showLocation">
+                        <span class="material-symbols-rounded">location_on</span>
+                        前往门店
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="container section">
+            <h3 class="headline-medium">精选系列</h3>
+            <div class="products-grid">
+                <div class="product-card elevation-2">
+                    <div class="card-image" style="background-image: url('images/curtain1.jpg')"></div>
+                    <div class="card-content">
+                        <h4>轻奢系列</h4>
+                        <p>现代简约风格，突显品质生活</p>
+                    </div>
+                </div>
+                <div class="product-card elevation-2">
+                    <div class="card-image" style="background-image: url('images/curtain2.jpg')"></div>
+                    <div class="card-content">
+                        <h4>欧式系列</h4>
+                        <p>古典韵味，彰显高贵典雅</p>
+                    </div>
+                </div>
+                <div class="product-card elevation-2">
+                    <div class="card-image" style="background-image: url('images/curtain3.jpg')"></div>
+                    <div class="card-content">
+                        <h4>智能系列</h4>
+                        <p>科技与美学的完美结合</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="contact-info">
+                <h3>联系我们</h3>
+                <p>
+                    <span class="material-symbols-rounded">phone</span>
+                    <a href="tel:+86xxxxxxxxxx">138-xxxx-xxxx</a>
+                </p>
+                <p>
+                    <span class="material-symbols-rounded">location_on</span>
+                    北京市朝阳区xxx路xx号
+                </p>
             </div>
         </div>
-    </main>
+    </footer>
 </body>
 </html>
