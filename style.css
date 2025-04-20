@@ -133,46 +133,45 @@ body {
 }
 
 .section {
-    padding: 64px 0;
+  padding: 2rem 1.5rem;
 }
 
 .headline-medium {
-    font-family: var(--md-ref-typeface-brand);
-    font-size: 36px;
-    color: var(--md-sys-color-primary);
-    margin: 0 0 32px;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
 }
 
 .products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
 }
 
 .product-card {
-    border-radius: 16px;
-    overflow: hidden;
-    background: white;
-    transition: transform 0.2s;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  transition: transform 0.2s;
 }
 
 .product-card:hover {
-    transform: translateY(-4px);
+  transform: translateY(-4px);
 }
 
 .card-image {
-    height: 200px;
-    background-size: cover;
-    background-position: center;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
 }
 
 .card-content {
-    padding: 16px;
+  padding: 16px;
 }
 
 .card-content h4 {
-    margin: 0 0 8px;
-    color: var(--md-sys-color-primary);
+  margin: 0 0 8px;
+  color: var(--md-sys-color-primary);
 }
 
 .footer {
